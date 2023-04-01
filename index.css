@@ -117,6 +117,29 @@ border-radius: 20px;
     margin: 0;
     background: #9122FF;;
 }
+.section-h2{
+    position: absolute;
+    width: 165px;
+    height: 41px;
+    left: 404px;
+    top: 810px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    
+    color: #26CC4B;  
+
+    position: absolute;
+}
+
+.h4{
+
+
+
+}
 
 .portafolio{
     position: center;
@@ -139,6 +162,7 @@ border-radius: 20px;
     background: #3F4E62;;
     background-image:url("../hackaton4/images/CLIENTES.png");
  }
+
 
 /* contacto*/
 
