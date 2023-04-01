@@ -7,29 +7,176 @@
 .header-portada{
 
     position: center;
-    width: 660px;
-    height: 660px;
+    width: 900px;
+    height: 400px;
     left: 0px;
     top: 525px;
+    margin: 0;
     background-image:url("../hackaton4/images/image\ 1.png");
  }
 
 .h1
  {
+    position: absolute;
+    width: 232px;
+    height: 74px;
+    left: 386px;
+    top: 53px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px; 
+    color: #FFFFFF;
+}
 
-    font-size: 2rem;
-    font-size: 1.5rem;
-    color:blanchedalmond ;
+
+.header-h2{
+
+    position: absolute;
+    width: 361px;
+    height: 97px;
+    left: 94px;
+    top: 278px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;  
+    color: #FFFFFF;
+}
+
+.sobre-mi{
+position: absolute;
+width: 155px;
+height: 41px;
+left: 408px;
+top: 552px;
+
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    color: #1D06A7; 
+    position:center;
+}
+
+.p{
+    position: absolute;
+    width: 872px;
+    height: 166px;
+    left: 41px;
+    top: 622px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    
+    
+    color: #F8F8F8;
 
 }
+
+.boton1{
+
+
+position: absolute;
+width: 187px;
+height: 62px;
+left: 38px;
+top: 711px;
+
+background: #D16FFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
 .rectangular{
     position: center;
-    width: 660px;
-    height: 660px;
+    width: 900px;
+    height: 400px;
     left: 0px;
     top: 525px;
-    
+    margin: 0;
     background: #7299FE;
 }
 
+.skills{
+    position: center;
+    width: 900px;
+    height: 400px;
+    left: 0px;
+    top: 525px;
+    margin: 0;
+    background: #9122FF;;
+}
 
+.portafolio{
+    position: center;
+    width: 900px;
+    height: 400px;
+    left: 0px;
+    top: 525px;
+    margin: 0;
+    background: #FFD233;
+    background-image:url("../hackaton4/images/PORTAFOLIO.png");
+ }
+
+ .Clientes{
+    position: center;
+    width: 900px;
+    height: 200px;
+    left: 0px;
+    top: 525px;
+    margin: 0;
+    background: #3F4E62;;
+    background-image:url("../hackaton4/images/CLIENTES.png");
+ }
+
+/* contacto*/
+
+.section-formulario {
+
+    max-inline-size: 900px;
+    margin: 0;
+    background: #1687A0;
+
+}
+form{
+    margin:20px;
+}
+input{
+    width: 44%;
+    height: 50px;
+    border: none;
+    background: white;
+    margin-block-end: 32px;
+    margin-inline-end: 32px;
+    padding: 8px;
+}
+
+textarea{
+    width: 94%;
+    margin-block-end: 24px;
+    padding: 8px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin-inline-start: 320px;
+    background:  rgb(21, 59, 90);
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(38, 92, 136) ;
+}
